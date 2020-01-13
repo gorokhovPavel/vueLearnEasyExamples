@@ -1,0 +1,75 @@
+@import 'optionStyle';
+
+.tile {
+    color: #888;
+    text-decoration: none;
+    line-height: 110px;
+    padding-left: 15px;
+    font-size: 13px;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 75px;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+    margin: 0 10px 10px 0;
+}
+.tile::after {
+    content: '';
+    --position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+.tile:hover {
+    color: #000;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+div.a_back {
+    font-size: 11px;
+    margin-bottom: -12px;
+}
+.camera_list {
+    width: 100% !important;
+    line-height: 60px !important;
+    height: 60px !important;
+}
+.camera_list_title {
+    display: inline-block;
+    width: 250px;
+    font-weight: 600;
+}
+.settings_cameras_btn_add, .settings_floors_btn_add {
+    font-weight: bold;
+    color: $kpmgColor;
+    line-height: 50px !important;
+    height: 50px !important;
+}
+select {
+    width: 80%;
+    border: 0;
+    border-bottom: 2px solid $kpmgColor;
+    padding: 8px 16px;	
+}
+
+span.icon_edit {
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('../images/icon_edit.png') no-repeat center;
+    background-size: cover;
+    margin-right: 16px;
+    opacity: 0.5;
+}
+span.icon_edit:hover {
+    opacity: 1.0;
+    cursor: pointer;
+}            

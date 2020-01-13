@@ -1,0 +1,53 @@
+@import 'optionStyle';
+
+body {
+    font-family : $kpmgFont;
+    font-size: 14px;
+    color: #000;
+}
+.fullSize {
+    width : 100%;
+}
+.left {
+    float : left;
+}
+.right {
+    float : right;
+}
+.pointer {
+    cursor : pointer;
+}
+.absolute {
+    position: absolute;
+}
+.whiteTextShadow {
+    text-shadow: 1px 1px 2px black, 0 0 1em #000; /* Параметры тени */
+}
+.buttSettings {
+    margin : 0 0 0 10px;
+    padding : 0;
+}
+.buttSettings > .anticon {
+    padding-left : 10px;
+}
+/* Делаем текст необводимым */
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+.shadowDivHover:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.boxShadow {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+/*Главный див для всех странчных компонентов*/
+.main {
+    min-height : $contentHeight;
+    padding : 50px 100px 10px;
+}
