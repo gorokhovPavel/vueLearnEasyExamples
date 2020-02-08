@@ -2,8 +2,8 @@
 
 body {
     font-family : $kpmgFont;
-    font-size: 14px;
-    color: #000;
+    font-size : 14px;
+    color : $textColor;
 }
 .fullSize {
     width : 100%;
@@ -16,6 +16,15 @@ body {
 }
 .pointer {
     cursor : pointer;
+}
+.bold {
+    font-weight : bold;
+}
+.upper {
+    text-transform : uppercase;
+}
+.border {
+    border : 1px solid #fff;
 }
 .absolute {
     position: absolute;
@@ -37,17 +46,12 @@ body {
        -khtml-user-select: none; /* Konqueror HTML */
          -moz-user-select: none; /* Old versions of Firefox */
           -ms-user-select: none; /* Internet Explorer/Edge */
-              user-select: none; /* Non-prefixed version, currently
-                                    supported by Chrome, Opera and Firefox */
+              user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 }
 .shadowDivHover:hover {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 .boxShadow {
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
-}
-/*Главный див для всех странчных компонентов*/
-.main {
-    min-height : $contentHeight;
-    padding : 50px 100px 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2); /* Параметры тени */
+    border-radius : .1rem;
 }
