@@ -1,5 +1,5 @@
 <template>
-    <div class='main'>
+    <div class=''>
 		<h1>{{logoGateSettings}}</h1>
 		<div>
 			<floors />
