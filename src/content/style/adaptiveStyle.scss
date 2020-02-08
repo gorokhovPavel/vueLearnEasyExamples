@@ -1,0 +1,85 @@
+/* Адаптивность */
+@import 'mainStyle';
+
+/* Mobile */
+
+// App
+.contentSizingAdp {
+    min-height : $contentHeight;
+    padding : 5px;
+    margin : 20px;
+}
+// *
+.flexContainerAdp {
+    display : flex;
+    flex-flow : column wrap;
+}
+.flexItemAdp {
+    text-align : center;
+    font-size : 1.25em;
+}
+//Menu
+.menuContainerAdp {
+    padding : 30px 5px;
+}
+.menuCardPosAdp {
+    padding : 1em;
+    margin : 1em;
+}
+//Analitics chart
+.analItemPosAdp {
+    padding : 25px 20px 10px 0px;
+}
+.backPointsChartAdp {
+    margin : 30px 0px;
+    padding : 5px 0px;
+}
+//Analitics objects
+.analObjPosAdp {
+    padding : 10px 20px;
+}
+//Analitics report 
+.reportPosAdp {
+    padding : 25px;
+    font-size : 1.1em;
+}
+
+/* Desktop */
+
+@media screen and ( min-width : 600px ) {
+    .contentSizingAdp {
+        min-height : $contentHeight;
+        padding : 50px 100px 10px;
+        margin : 10px 50px 0;
+    }
+    .flexContainerAdp {
+        display : flex;
+        flex-flow : row wrap;
+    }
+    .flexItemAdp {
+        text-align : center;
+        font-size : 1em;
+    }
+    .menuContainerAdp {
+		padding : 0;
+	}
+    .menuCardPosAdp {
+        padding : 2em 4em;
+        margin : 1em;
+    }
+    .analItemPosAdp {
+        margin: 0px;
+        padding : 0 30px 0 0px;
+    }
+    .backPointsChartAdp {
+        margin : 30px 5px;
+        padding : 0px 45px 20px 15px;
+    }
+    .analObjPosAdp {
+        padding : 0px;
+    }
+    .reportPosAdp {
+        padding : 30px 145px;
+        font-size : 0.9em;
+    }
+}
