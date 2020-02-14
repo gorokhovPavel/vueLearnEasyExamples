@@ -42,6 +42,7 @@ module.exports = {
     floorsSettings : 'Настройка этажей',
     cameraSettings : 'Настройка камер',
     gatesSettings : 'Настройка ворот',
+    recognitionFace : 'Распознавание лиц',
 
     for : 'За',
     today : 'Сегодня',
@@ -68,4 +69,6 @@ module.exports = {
     addFloor : 'Добавить этаж',
     inverse : 'Обратный',
     entrance : 'Вход',
+
+    download : 'Загрузить',
 }
