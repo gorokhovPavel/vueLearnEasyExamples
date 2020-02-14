@@ -42,6 +42,7 @@ module.exports = {
     floorsSettings : 'Floor setting',
     cameraSettings : 'Camera setting',
     gatesSettings : 'Gates settings',
+    recognitionFace : 'Face recognitions',
 
     for : 'For',
     today : 'Today',
@@ -68,4 +69,6 @@ module.exports = {
     addFloor : 'Add floor',
     inverse : 'Inverse',
     entrance : 'Entrance',
+
+    download : 'Download',
 }
