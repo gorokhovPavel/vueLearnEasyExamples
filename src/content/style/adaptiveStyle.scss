@@ -9,7 +9,7 @@
     padding : 5px;
     margin : 20px;
 }
-// *
+// * flex
 .flexContainerAdp {
     display : flex;
     flex-flow : column wrap;
@@ -17,6 +17,16 @@
 .flexItemAdp {
     text-align : center;
     font-size : 1.25em;
+}
+// * ordinary class for any items
+.ordinarContainerAdp {
+    padding : 10px;
+}
+.ordinarItemMarAdp {
+    margin : 10px 0;
+}
+.ordinarItemPadAdp {
+    padding : 0 12px 10px 7px;
 }
 //Menu
 .menuContainerAdp {
@@ -34,18 +44,51 @@
     margin : 30px 0px;
     padding : 5px 0px;
 }
-//Analitics objects
-.analObjPosAdp {
-    padding : 10px 20px;
-}
 //Analitics report 
 .reportPosAdp {
     padding : 25px;
     font-size : 1.1em;
 }
-
+//CameraVideo
+.cameraViewAdp {
+    margin : 0px auto;
+    width: 100%;
+}
+.cameraOrdAdp1 {
+    order : 3;
+}
+.cameraOrdAdp2 {
+    order : 1;
+}
+.cameraOrdAdp3 {
+    order : 2;
+}
+//CameraList
+.cameraListDescrAdp span {
+    padding : 0 7px;
+    font-size : .8em;
+}
+//FaceRecognition
+.uploadFaceImgAdp {
+    width : 100%;
+    line-height : 30px;
+}
+//ResultRecodnition
+// .gridContainerResRecAdp {
+//     display : grid;
+//     grid-template-areas : 
+//         'imgOfRec titleOfRec'
+//         'rezOfRecAdp';
+// }
+// .imgOfRec {
+//     grid-row-start : 1;
+//     grid-row-end : 2;
+// }
+// .rezOfRecAdp {
+//     grid-column-start : 1;
+//     grid-column-end : 3;
+// }
 /* Desktop */
-
 @media screen and ( min-width : 600px ) {
     .contentSizingAdp {
         min-height : $contentHeight;
@@ -55,10 +98,20 @@
     .flexContainerAdp {
         display : flex;
         flex-flow : row wrap;
+        justify-content : space-between;
     }
     .flexItemAdp {
         text-align : center;
         font-size : 1em;
+    }
+    .ordinarContainerAdp {
+        padding : 10px 0;
+    }
+    .ordinarItemMarAdp {
+        margin : 0px 5px 5px !important;
+    }
+    .ordinarItemPadAdp {
+        padding : 1px 5px 5px 5px;
     }
     .menuContainerAdp {
 		padding : 0;
@@ -75,11 +128,50 @@
         margin : 30px 5px;
         padding : 0px 45px 20px 15px;
     }
-    .analObjPosAdp {
-        padding : 0px;
-    }
     .reportPosAdp {
         padding : 30px 145px;
         font-size : 0.9em;
     }
+    .cameraViewAdp {
+        margin : 10px auto;
+        width : 73%;
+    }
+    .cameraOrdAdp1 {
+        order : 1;
+    }
+    .cameraOrdAdp2 {
+        order : 2;
+    }
+    .cameraOrdAdp3 {
+        order : 3;
+    }
+    .cameraListDescrAdp span {
+        padding : 0 100px;
+        font-size : 1em;
+    }
+    .uploadFaceImgAdp {
+        width : 49%;
+    }
+    .gridContainerResRecAdp {
+        display : grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-auto-rows: 100px;
+    }
+    .imgOfRec {
+        grid-column-start: 1; 
+        grid-column-end: 4; 
+        grid-row-start: 1; 
+        grid-row-end: 3; 
+    }
+    .titleOfRec {
+        grid-column-start: 1; 
+  grid-row-start: 3; 
+  grid-row-end: 5; 
+    }
+    //.rezOfRecAdp {
+        //grid-column-start : 2;
+        //grid-column-end : 3;
+        // grid-row-start : 2;
+        // grid-row-end : 4;
+    //}
 }
