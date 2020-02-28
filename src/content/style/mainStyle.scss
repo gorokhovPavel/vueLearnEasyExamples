@@ -5,8 +5,14 @@ body {
     font-size : 14px;
     color : $textColor;
 }
+.overHidden {
+    overflow: hidden;
+}
 .fullSize {
     width : 100%;
+}
+.fullHeight {
+    height : 100%;
 }
 .simpleMar {
     margin : 10px;
@@ -14,14 +20,17 @@ body {
 .minMarg {
     margin : 5px 5px 0 0;
 }
-.simpleMarg {
-    margin : 10px;
+.margDown {
+    margin-bottom : 10px;
 }
-.margVert {
-    margin : 10px 0;
+.margUp {
+    margin-top : 10px;
+}
+.minPad {
+    padding: 5px;
 }
 .simplePad {
-    padding: 10px;
+    padding : 10px;
 }
 .inline {
     display : inline;
@@ -57,7 +66,7 @@ body {
     position: absolute;
 }
 .whiteTextShadow {
-    text-shadow: 1px 1px 2px black, 0 0 1em #000; /* Параметры тени */
+    text-shadow: .5px .5px .5px black, 0 0 .5px #fefefe; /* Параметры тени */
 }
 .buttSettings {
     margin : 0 0 0 10px;
