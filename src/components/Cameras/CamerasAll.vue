@@ -1,10 +1,10 @@
 <template>
-    <div class='main'>
-		<floors />
+    <div class='flexContainerAdp ordinarContainerAdp'>
+		<floors class='flexItemAdp' />
 		<router-link :to="'/CameraVideo/'+item.id"
 			v-for='(item, index) in cameraList' :key='index' 
-			class='camera_view pointer shadowDivHover' >
-				<img class='cameraMenuImg fullSize' v-if='item.id' :src='getCameraGifFile(item.id)' />
+			class='pointer shadowDivHover flexItemAdp ordinarItemPadAdp' >
+				<img v-if='item.id' :src='getCameraGifFile(item.id)' />
 		</router-link>
 	</div>
 </template>
@@ -35,13 +35,3 @@
 		}
 	}
 </script>
-<style lang='scss' >
-	.camera_view {
-		display : inline-block;
-		width : 32.5%;
-		margin : 5px;
-	}
-	.cameraMenuImg {
-		height : 200px;
-	}
-</style>
