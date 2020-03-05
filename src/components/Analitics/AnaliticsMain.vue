@@ -1,11 +1,11 @@
 <template>
-	<div class='dashAnaliticsMain' > 
-		<canvas id='gatesAdsChartId' class='fullSize' height='300' ></canvas>
-		<div 
-			class='backPointsChart' 
-			:style="{ 'background' : 'url('+getGeoPlanMapFile+')', 'background-size' : 'cover' }" >
-				<canvas id='pointsChartId' class='fullSize' height='400' ></canvas>
-		</div>
+	<div class='flexContainerAdp' > 
+		<canvas id='gatesAdsChartId' class='fullSize flexItemAdp analItemPosAdp ' height='300px' >
+		</canvas>
+		<canvas 
+			id = 'pointsChartId' class='fullSize flexItemAdp backPointsChartAdp' :height='chartPointsCanvasHeight'
+			:style="{ 'background' : 'url('+getGeoPlanMapFile+')', 'background-size' : '100% 100%' }" >
+		</canvas>
 	</div>
 </template>
 <script>
@@ -19,11 +19,16 @@
 			config : null,
 			chartData : null,
 			chartOptions : null,
+			chartPointsCanvasHeight : null,
 		}),
 		computed : {
-			...mapGetters(['getChartColors', 'getGeoPlanMapFile', 'getAreaInfo', 'getCenterInterval', 'getMaxMinTerritory' ]),
+			...mapGetters([ 'getChartColors', 'getGeoPlanMapFile', 'getAreaInfo', 'getCenterInterval', 'getMaxMinTerritory' ]),
 		},
-        mounted() {				
+        mounted() {		
+			
+			//This is the setting of height size for canvas object, pointsChartId
+			this.chartPointsCanvasHeight = ( window.innerWidth > 600 ) ? '400px' : '200px';
+
 			const objForArea = { 
 				inTimeTerritoryData : null, 
 				callBack : ()=> {
@@ -95,21 +100,3 @@
 		}
     }
 </script>
-
-<style lang="scss">  
-	.dashAnaliticsMain{
-		padding : 70px 0 0 0;
-	}
-	#gatesAdsChartId {
-		padding : 0 205px 10px 185px;
-	}
-	#pointsChartId {
-		z-index: 2;
-		--margin : 30px 200px 20px;
-	}
-	.backPointsChart {
-		z-index: 1;
-		margin : 30px 200px 40px;
-		height: 420px;
-	}
-</style>
