@@ -1,11 +1,12 @@
 <template>
-    <div class='main'>
-		<floors/>
-		<a-collapse v-if='pointMapData' >
+    <div class='flexContainerAdp ordinarContainerAdp' >
+		<floors class='flexItemAdp' />
+		<a-collapse class='fullSize flexItemAdp ordinarItemMarAdp' v-if='pointMapData' >
 			<a-collapse-panel v-for='(elem, index) in objectArr' :key='index' :header='$lang.messages[`${elem}Name`]' >
-				<p v-for='(item, index) in getArrDataForName(elem)' :key='index' >
-					{{index+1}} : {{item}}
-				</p>
+				<div v-for='(item, index) in getArrDataForName(elem)' :key='index' >
+					<span> {{index+1}} : {{item}} </span>
+					<br>
+				</div>
 			</a-collapse-panel>
 		</a-collapse>
 	</div>
