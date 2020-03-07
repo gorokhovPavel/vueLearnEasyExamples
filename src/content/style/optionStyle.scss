@@ -1,7 +1,14 @@
+@font-face {
+    font-family: 'kpmgFont';
+    src: require('../fonts/kpmg.woff') format('font-woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 $kpmgColor : #00338d;
 $backgroundColor : #e9ecef;
 
-$kpmgFont : Helvetica,Arial,sans-serif;
+$kpmgFont : 'kpmgFont';
 $contentHeight : 81.5vh;
 
 $textColor : #555;
