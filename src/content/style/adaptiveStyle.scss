@@ -127,8 +127,8 @@
 @media screen and ( min-width : 600px ) {
     .contentSizingAdp {
         min-height : $contentHeight;
-        padding : 50px 100px 10px;
-        margin : 10px 50px 0;
+        padding : 25px 15px;
+        margin : 25px 125px 0;
     }
     .divMapAdp {
         margin: -50px -100px -10px;
@@ -217,13 +217,14 @@
         grid-column-end : 3; 
         grid-row-start : 1; 
         grid-row-end : 3; 
+        height: 100%;
     }
     .titleOfRecAdp {
         grid-column-start : 3;
         grid-column-end : 6;
 
         font-size : 20px;
-        line-height : 80px; 
+        line-height : auto; 
     }
     .imgOfDocAdp {
         width : 100%;
