@@ -177,7 +177,7 @@ const actions = {
     },
     //Перезагрузка моудля добавления геометрических объектов
     setResetMbDraw({state}){
-        try{
+        try {
            state.mainMap.removeControl(state.mapObjDraw);
         } catch(error) {
            console.log(error);
@@ -189,6 +189,35 @@ const actions = {
     },
     setChangeMapCursor( {state}, isCross ){
         state.mainMap.getCanvas().style.cursor = isCross ? 'crosshair' : '';
+    },
+    getRecogData( { state, commit, dispatch }, imageData ) {
+        commit( 'setCurrentMapValue', { field : 'faceRecogResult',  value : [] });
+        dispatch( 'setAxiosWrapper', {
+            letUrlAction : api.getResultRecognitions(imageData),
+            isSuccessNotify : false,
+            goodCallBack : response => {
+                const { data } = response;
+                if( !data ) return;
+
+                const { faces, main_img } = data;
+                if( !faces || !main_img ) return;
+
+                let recogResultArr = [];
+                faces.forEach( item => {
+                    const { documents, face_img } = item;
+                    if( documents && face_img ) {
+                        const resOfRecogObj = {
+                            recImg : face_img,
+                            docImgArr : documents,
+                            isRecog : ( documents.length>0 )
+                        };
+                        recogResultArr = [ ...recogResultArr, resOfRecogObj ];
+                    }
+                })
+                commit( 'setCurrentMapValue', { field : 'faceRecogResult',  value : recogResultArr });
+                commit( 'setCurrentMapValue', { field : 'mainImgRecog',  value : main_img });
+            }
+        });
     }
 }
 
