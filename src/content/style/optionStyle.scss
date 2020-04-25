@@ -1,15 +1,19 @@
-@font-face {
-    font-family: 'kpmgFont';
-    src: require('../fonts/kpmg.woff') format('font-woff');
-    font-weight: bold;
-    font-style: normal;
-}
+// @font-face {
+//     font-family: 'kpmgFont';
+//     src: url('/fonts/KPMGCyrillic-Thin-160705.eot'); /* IE9 Compat Modes */
+//     src: url('/fonts/KPMGCyrillic-Thin-160705.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//       url('/fonts/KPMGCyrillic-Thin-160705.otf') format('opentype'), /* Open Type Font */
+//       url('/fonts/KPMGCyrillic-Thin-160705.svg') format('svg'), /* Legacy iOS */
+//       url('/fonts/KPMGCyrillic-Thin-160705.ttf') format('truetype'), /* Safari, Android, iOS */
+//       url('/fonts/KPMGCyrillic-Thin-160705.woff') format('woff'), /* Modern Browsers */
+//       url('/fonts/KPMGCyrillic-Thin-160705.woff2') format('woff2'); /* Modern Browsers */
+//     font-weight: normal;
+//     font-style: normal;
+//   }
 
+$kpmgFont : arial, sans-serif;
 $kpmgColor : #00338d;
 $backgroundColor : #e9ecef;
-
-//НЕ используется, тк после подгрузки kpmg.woff не получается поменять шрифт, подгруженный  :/
-//$kpmgFont : 'kpmgFont';
 $contentHeight : 81.5vh;
 
 $textColor : #555;
