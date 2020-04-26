@@ -71,4 +71,8 @@ module.exports = {
     entrance : 'Entrance',
 
     download : 'Download',
+    uploadPicture : 'Upload picture',
+    faceRec : 'Recognize faces',
+    uploadErrorType : 'You can only upload JPG/PNG/BMP file!',
+    uploadErrorSize : 'Image must smaller than 20MB!',
 }
