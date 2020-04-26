@@ -71,4 +71,8 @@ module.exports = {
     entrance : 'Вход',
 
     download : 'Загрузить',
+    uploadPicture : 'Загрузить картинку',
+    faceRec : 'Распознать лица',
+    uploadErrorType : 'Вы можете загружать только JPG/PNG/BMP файлы!',
+    uploadErrorSize : 'Картика должна быть меньше, чем 20MB',
 }
