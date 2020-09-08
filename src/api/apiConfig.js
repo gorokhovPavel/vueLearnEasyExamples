@@ -1,7 +1,6 @@
 import axios from 'axios'
 
 const [ hostSimpleApi, hostRecogApi ] = ( process.env.NODE_ENV === 'development' ) ? 
-    //['http://localhost:5000', 'http://localhost:8000'] : 
     [ 'http://rustpapp601.ru.kworld.kpmg.com:9910', 'http://rustpapp601.ru.kworld.kpmg.com:9920' ] :
     [ 'http://rustpapp601.ru.kworld.kpmg.com:9910', 'http://rustpapp601.ru.kworld.kpmg.com:9920' ];
 
@@ -33,8 +32,6 @@ export default {
         });
     },
     getResultRecognitions : file => {
-        // const formData = new FormData();
-        // formData.append( 'image', file );
         return axios.post( `${hostRecogApi}/request`, file, {
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
