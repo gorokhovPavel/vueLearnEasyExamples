@@ -1,25 +1,8 @@
-# vue-examples
+Test simple examples for learning vue framework.
 
-Collection of Vue.js reference examples for teaching and learning Vue. These examples assume NO experience of front end by the reader. I myself had more experience as a backend engineer and found most front end examples required too much familiarity of HTML, Javascript and the front end stack. I journaled these examples to help myself and others.
+Thise examples can be accessed by opening the index.html file within your browser. The related javascript and css files are referenced by this file when appropriate. This is a good way to test javascript and Vue snippets found on the web.
 
-The early examples 1-15, are intentionally simple while the remainder start using VUE cli and NUXT which are more sophisticated patterns (they generate complex starting projects) that it is helpful to build up to. VUE cli is what an experienced front end developer may use if they are unfamiliar with Vue and Nuxt would be used by an intermediate Vue Front End engineer as it provides more benefits as well as more complexity. 
 
-## Introduction
-
-These examples can be accessed by opening the index.html file within your browser. The related javascript and css files are referenced by this file when appropriate. This is a good way to test javascript and Vue snippets found on the web.
-
-1. [Hello World](https://github.com/peterlamar/vue-workshop/tree/master/1-helloworld)
-1. [Instance](https://github.com/peterlamar/vue-workshop/tree/master/2-instance)
-1. [Vbind](https://github.com/peterlamar/vue-workshop/tree/master/3-vbind)
-1. [Computed](https://github.com/peterlamar/vue-workshop/tree/master/4-computed)
-1. [Watcher](https://github.com/peterlamar/vue-workshop/tree/master/5-watcher)
-1. [Class](https://github.com/peterlamar/vue-workshop/tree/master/6-class)
-1. [Events](https://github.com/peterlamar/vue-workshop/tree/master/7-events)
-1. [Vmodel](https://github.com/peterlamar/vue-workshop/tree/master/8-vmodel)
-1. [Component](https://github.com/peterlamar/vue-workshop/tree/master/9-component)
-1. [ComponentMessage](https://github.com/peterlamar/vue-workshop/tree/master/10-componentmessage)
-1. [ComponentDynamic](https://github.com/peterlamar/vue-workshop/tree/master/11-componentdynamic)
-1. [Async](https://github.com/peterlamar/vue-workshop/tree/master/12-async)
 
 ## Charts and Graphs
 
@@ -50,9 +33,3 @@ The [Nuxt](https://nuxtjs.org/) project is an attempt to improve on the Vue cli 
 ## Contributing
 
 If any of this is helpful to you or you wish to improve upon these examples, pull requests are absolutely welcome!
-
-## References
-
-1. [Mozilla DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
-2. [Vue Tutorial](https://vuejs.org/v2/guide/installation.html)
-3. [Babel Javascript 2015](https://babeljs.io/docs/en/learn)
