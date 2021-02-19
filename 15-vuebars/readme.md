@@ -29,7 +29,3 @@ Vue(VueBars);
 ## Demo
 
 [https://codesandbox.io/s/74prz8jp7j](https://codesandbox.io/s/74prz8jp7j)
-
-## Reference
-
-[Vue Bars](https://github.com/DeviaVir/vue-bar#readme)
