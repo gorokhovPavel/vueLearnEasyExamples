@@ -26,11 +26,7 @@ new Contour({
 <div class="myFirstChart" style="width:80%; height:300px;"></div>
 ```
 
-## Demo
-
-[code pen](https://codepen.io/peterlamar/pen/vbdoJG) to view functionality.
-
-### Locally
+https://codepen.io/peterlamar/pen/vbdoJG
 
 Open file index.html in a web browser
 
