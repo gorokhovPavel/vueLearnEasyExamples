@@ -24,10 +24,6 @@ new Vue({ el: "#app" });
 </div>
 ```
 
-## Demo
-
-[https://peterlamar.github.io/vue-examples/vuechart/](https://peterlamar.github.io/vue-examples/vuechart/)
-
 [code sandbox](https://codesandbox.io/s/nywkpy4q0) 
 
 ### Locally
