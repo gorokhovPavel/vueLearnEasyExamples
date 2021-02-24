@@ -50,12 +50,4 @@ This demonstrates dynamic component functionality. It is intentionally simple to
 </div>
 ```
 
-## Demo
-
-[https://peterlamar.github.io/vue-examples/componentdynamic/](https://peterlamar.github.io/vue-examples/componentdynamic/)
-
-[code sandbox](https://codesandbox.io/s/5k01x3kqrk) 
-
-### Locally
-
-Open file index.html in a web browser
+https://codesandbox.io/s/5k01x3kqrk
