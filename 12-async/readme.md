@@ -40,16 +40,4 @@ var app = new Vue({
 </div>
 ```
 
-## Demo
-
-[https://peterlamar.github.io/vue-examples/async/](https://peterlamar.github.io/vue-examples/async/)
-
-[JS Fiddle](https://jsfiddle.net/Akryum/ft0dmoex/)
-
-### Locally
-
-Open file index.html in a web browser
-
-## Reference
-
-[JS Fiddle](https://jsfiddle.net/Akryum/ft0dmoex/)
+https://jsfiddle.net/Akryum/ft0dmoex/
