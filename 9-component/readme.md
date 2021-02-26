@@ -73,12 +73,4 @@ new Vue({
 </div>
 ```
 
-## Demo
-
-[https://peterlamar.github.io/vue-examples/component/](https://peterlamar.github.io/vue-examples/component/)
-
-[code sandbox](https://codesandbox.io/s/6zww24m5qz)
-
-### Locally
-
-Open file index.html in a web browser
+https://codesandbox.io/s/6zww24m5qz
