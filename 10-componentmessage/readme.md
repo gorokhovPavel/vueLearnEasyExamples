@@ -69,8 +69,5 @@ new Vue({
   Something bad happened.
 </alert-box>
 </div>
-```
 
 https://codesandbox.io/s/o4rmyj7m86
-
-Open file index.html in a web browser
