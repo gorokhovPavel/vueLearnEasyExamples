@@ -53,11 +53,7 @@ var app3 = new Vue({
 <div v-bind:style="{ display: ['-webkit-box', '-ms-flexbox', 'flex'] }"></div>
 ```
 
-## Demo
-
-[https://peterlamar.github.io/vue-examples/class/](https://peterlamar.github.io/vue-examples/class/)
-
-[code sandbox](https://codesandbox.io/s/l2qjk65y17)
+https://codesandbox.io/s/l2qjk65y17
 
 ## Demo locally
 
