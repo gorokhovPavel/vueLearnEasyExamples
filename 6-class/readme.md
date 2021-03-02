@@ -54,7 +54,3 @@ var app3 = new Vue({
 ```
 
 https://codesandbox.io/s/l2qjk65y17
-
-## Demo locally
-
-Open file index.html in a web browser
