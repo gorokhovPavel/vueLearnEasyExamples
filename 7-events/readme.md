@@ -66,9 +66,5 @@ new Vue({
   </div>
 ```
 
-## Demo
-
-[https://peterlamar.github.io/vue-examples/events/](https://peterlamar.github.io/vue-examples/events/)
-
 https://codesandbox.io/s/pmo03ppvl0
 
