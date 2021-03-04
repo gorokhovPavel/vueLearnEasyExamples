@@ -70,8 +70,5 @@ new Vue({
 
 [https://peterlamar.github.io/vue-examples/events/](https://peterlamar.github.io/vue-examples/events/)
 
-[code sandbox](https://codesandbox.io/s/pmo03ppvl0)
+https://codesandbox.io/s/pmo03ppvl0
 
-## Demo locally
-
-Open file index.html in a web browser
