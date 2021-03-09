@@ -26,10 +26,3 @@ These examples start with the [VUE cli](https://cli.vuejs.org/) and represent th
 ## Nuxt
 
 The [Nuxt](https://nuxtjs.org/) project is an attempt to improve on the Vue cli by providing some common settings as defaults in the generated project.
-
-22. [HelloNuxt](https://github.com/peterlamar/vue-workshop/tree/master/22-hellonuxt)
-23. [todo-app](https://github.com/peterlamar/vue-workshop/tree/master/23-todo-app)
-
-## Contributing
-
-If any of this is helpful to you or you wish to improve upon these examples, pull requests are absolutely welcome!
