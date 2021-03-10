@@ -63,11 +63,7 @@ new Vue({
   </div>
 ```
 
-## Demo
-
-[https://peterlamar.github.io/vue-examples/vmodel/](https://peterlamar.github.io/vue-examples/vmodel/)
-
-[code sandbox](https://codesandbox.io/s/88lv4xk3l2)
+https://codesandbox.io/s/88lv4xk3l2
 
 ### Locally
 
