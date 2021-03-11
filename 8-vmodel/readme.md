@@ -64,7 +64,3 @@ new Vue({
 ```
 
 https://codesandbox.io/s/88lv4xk3l2
-
-### Locally
-
-Open file index.html in a web browser
