@@ -1,1 +1,1 @@
-This example shows useage of 'Watcher' properties. Unfortunetly the functionality of Watchers are very similar to computed properties so it can be initially confusing. Computed properties can respond when many variables are modified, but watchers can be attached to only one variable.
+This example shows useage of 'Watcher' properties. 
