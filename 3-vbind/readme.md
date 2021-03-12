@@ -2,8 +2,6 @@
 
 vbind allows an html property to mirror a javascript variable. You can think of it as setting an html variable to a javascript variable by reference so that changes to the javascript variable appear in the html variable or property.
 
-The vbind concept was confusing to me at first so I wanted another example. I was able to find this after some searching and it helped explain the concept. In this example the html is
-
 ```
 <img :src="image" v-bind:alt="altText" />
 ```
