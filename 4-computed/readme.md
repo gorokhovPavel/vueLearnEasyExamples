@@ -3,6 +3,4 @@ This example shows useage of 'Computed' properties. By using the 'computed' prop
 
 Open file index.html in a web browser
 
-## Reference
-
-[Vue Computed](https://vuejs.org/v2/guide/computed.html)
+https://vuejs.org/v2/guide/computed.html
