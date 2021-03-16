@@ -14,6 +14,4 @@ And the Vue Javascript code changes this to
 
 by using v-binding to bing the Vue component to the html div tag and then assigning a new value to the image attribute.
 
-## Reference
-
 https://www.vuemastery.com/courses/intro-to-vue-js/attribute-binding/
