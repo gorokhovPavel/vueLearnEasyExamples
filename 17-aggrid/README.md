@@ -1,8 +1,6 @@
 # Local aggrid
 
-This builds on the
-[LocalProxy](https://github.com/peterlamar/vue-workshop/tree/master/localproxy)
-project by making a rest call to a local server that returns values that are
+This builds on the project by making a rest call to a local server that returns values that are
 inserted into a grid. This is a good getting started example for a end-to-end
 web application.
 
@@ -51,4 +49,4 @@ client will then display the data locally within a grid.
 
 ### Reference
 
-See [AG-GRID Vue example](https://github.com/ag-grid/ag-grid-vue-example).
+https://github.com/ag-grid/ag-grid-vue-example
