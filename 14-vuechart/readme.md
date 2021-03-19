@@ -24,7 +24,7 @@ new Vue({ el: "#app" });
 </div>
 ```
 
-[code sandbox](https://codesandbox.io/s/nywkpy4q0) 
+https://codesandbox.io/s/nywkpy4q0
 
 ### Locally
 
@@ -32,4 +32,4 @@ Open file index.html in a web browser
 
 ## Reference
 
-[Vue Trend](https://cinwell.com/vue-trend/)
+https://cinwell.com/vue-trend/
