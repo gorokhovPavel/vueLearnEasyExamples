@@ -26,6 +26,4 @@ Vue(VueBars);
 ></bars>
 ```
 
-## Demo
-
-[https://codesandbox.io/s/74prz8jp7j](https://codesandbox.io/s/74prz8jp7j)
+https://codesandbox.io/s/74prz8jp7j
