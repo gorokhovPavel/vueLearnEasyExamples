@@ -8,12 +8,15 @@
   margin-bottom: -1px;
   margin-right: -1px;
 }
+
 .tab-button:hover {
   background: #e0e0e0;
 }
+
 .tab-button.active {
   background: #e0e0e0;
 }
+
 .tab {
   border: 1px solid #ccc;
   padding: 10px;
