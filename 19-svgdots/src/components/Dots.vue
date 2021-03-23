@@ -11,7 +11,6 @@
             @click="onClick(item)" />
   </svg>
 </template>
-
 <script>
 import dataset from './dataset.json'
 export default {
