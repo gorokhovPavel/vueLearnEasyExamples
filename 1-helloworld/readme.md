@@ -9,6 +9,4 @@ statements, loops, and components (de-coupled logic).
 
 Open file index.html in a web browser
 
-## Reference
-
-[vue intro](https://vuejs.org/v2/guide/)
+https://vuejs.org/v2/guide/
