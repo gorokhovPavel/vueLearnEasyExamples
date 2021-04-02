@@ -9,9 +9,7 @@
 <div class="home">
   <img alt="Vue logo" src="https://vuejs.org/images/logo.png">
 
-  <div class="data-query">
-
-  </div>
+  <div class="data-query" />
 
   <ag-grid-vue style="width: 100%; height: 1000px;"
     class="ag-theme-balham"
