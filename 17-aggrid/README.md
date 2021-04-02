@@ -44,9 +44,6 @@ axios
 }
 ```
 
-When the app starts, it will send a request to the server. The
-client will then display the data locally within a grid.
-
 ### Reference
 
 https://github.com/ag-grid/ag-grid-vue-example
