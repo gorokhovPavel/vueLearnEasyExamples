@@ -7,13 +7,12 @@
     <FancyConnectDots/>
   </div>
   </div>
-  
 </template>
 
 <script>
+
 import ConnectDots from './components/ConnectDots.vue'
 import FancyConnectDots from './components/FancyConnectDots.vue'
-
 
 export default {
   name: 'app',
