@@ -1,5 +1,5 @@
 <html>
-
+  
 <head>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
@@ -20,14 +20,11 @@
           resolve({
             template: '<div>I am async!</div>'
           })
-        }, 1000)
+        }, 2500)
       })
 
-      // New VueJS instance
       var app = new Vue({
-      	// CSS selector of the root DOM element
         el: '#app',
-        // Some data
         data: () => ({
           show: false,
         }),
