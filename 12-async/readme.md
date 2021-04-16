@@ -33,7 +33,6 @@ var app = new Vue({
 <!-- Include the library in the page -->
 <script src="https://unpkg.com/vue"></script>
 
-<!-- App -->
 <div id="app">
   <button @click="show ^= 1">Toggle</button>
   <async-example v-if="show"/>
