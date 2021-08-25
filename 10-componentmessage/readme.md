@@ -4,7 +4,6 @@ This demonstrates message component functionality. It shows two different compon
 
 ## Usage
 
-```javascript
 Vue.component('blog-post', {
     props: ['post'],
     template: `
@@ -15,8 +14,8 @@ Vue.component('blog-post', {
         </button>
         <div v-html="post.content"></div>
     </div>
-    `
 })
+
 new Vue({
     el: '#blog-posts-events-demo',
     data: {
@@ -43,14 +42,11 @@ Vue.component('alert-box', {
         <strong>Error!</strong>
         <slot></slot>
     </div>
-    `
 })
 
 new Vue({
     el: '#app'})
-```
 
-```html
 <div id="blog-posts-events-demo">
   <div :style="{ fontSize: postFontSize + 'em' }">
     <blog-post
