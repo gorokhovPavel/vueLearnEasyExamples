@@ -1,8 +1,9 @@
 
-/* This demonstrates message component functionality. It shows two different components and the ability to manipulate their data. Components are frequently used in Vue and its important to understand the fundamentals to build on later. */
+## This demonstrates message component functionality. It shows two different components and the ability to manipulate their data. Components are frequently used in Vue and its important to understand the fundamentals to build on later.
 
 ## Usage
 
+```javascript
 Vue.component('blog-post', {
     props: ['post'],
     template: `
@@ -13,6 +14,7 @@ Vue.component('blog-post', {
         </button>
         <div v-html="post.content"></div>
     </div>
+    `
 })
 
 new Vue({
@@ -46,6 +48,7 @@ Vue.component('alert-box', {
 new Vue({
     el: '#app'})
 
+```html
 <div id="blog-posts-events-demo">
   <div :style="{ fontSize: postFontSize + 'em' }">
     <blog-post
@@ -63,5 +66,6 @@ new Vue({
   Something bad happened.
 </alert-box>
 </div>
+`
 
 https://codesandbox.io/s/o4rmyj7m86
