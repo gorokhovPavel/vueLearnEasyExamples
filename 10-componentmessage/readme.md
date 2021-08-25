@@ -1,6 +1,5 @@
-# Vue Message Component
 
-This demonstrates message component functionality. It shows two different components and the ability to manipulate their data. Components are frequently used in Vue and its important to understand the fundamentals to build on later. 
+// This demonstrates message component functionality. It shows two different components and the ability to manipulate their data. Components are frequently used in // Vue and its important to understand the fundamentals to build on later. 
 
 ## Usage
 
