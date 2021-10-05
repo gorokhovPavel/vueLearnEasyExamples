@@ -17,6 +17,7 @@ Vue.component('blog-post', {
     `
 })
 
+
 new Vue({
     el: '#blog-posts-events-demo',
     data: {
