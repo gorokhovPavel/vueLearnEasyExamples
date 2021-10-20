@@ -5,7 +5,6 @@ Asyncronous calls is vital in modern development. This clean example from jsfidd
 ## Usage
 
 ```javascript
-console.clear()
 console.log('Yes! We are using Vue version', Vue.version)
 
 Vue.component('async-example', function (resolve, reject) {
