@@ -15,6 +15,7 @@ Vue.component('async-example', function (resolve, reject) {
   }, 1000)
 })
 
+
 // New VueJS instance
 var app = new Vue({
 	// CSS selector of the root DOM element
